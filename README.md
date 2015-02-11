@@ -39,7 +39,7 @@ The key components of an API are:
 - Install virtualenv/virtualenvwrapper
 
 ```bash
-pip install Flask schematics
+pip install Flask schematics six
 ```
 
 
@@ -49,6 +49,14 @@ mkdir -p ~/repos/basic-python-rest-api && cd $_
 
 ```bash
 vi api.py
+```
+
+## Start/stop server
+
+```bash
+export API_CONFIG=/path/to/api_config.py
+
+python server.py
 ```
 
 ## Files
